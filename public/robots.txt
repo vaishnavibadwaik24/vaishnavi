@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yushabh-dhande.vercel.app/sitemap.xml
