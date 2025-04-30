@@ -7,21 +7,21 @@ const Skills: React.FC = () => {
       category: 'Frontend Development',
       icon: '💻',
       description: 'Creating responsive and interactive user interfaces',
-      technologies: ['HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'React', 'TypeScript'],
+      technologies: ['HTML5', 'CSS3', 'Bootstrap', 'Tailwind CSS', 'React'],
       // technologies: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'HTML5', 'CSS3'],
     },
     {
       category: 'Backend Development',
       icon: '⚙️',
       description: 'Building robust server-side applications',
-      technologies: ['Laravel', 'PHP', 'MySQL', 'RESTful APIs', 'MVC Architecture'],
+      technologies: ['Laravel', 'PHP', 'MySQL', 'MVC Architecture'],
       // technologies: ['Node.js', 'Express', 'MongoDB', 'RESTful APIs', 'GraphQL'],
     },
     {
       category: 'Tools & Methods',
       icon: '🛠',
       description: 'Using modern development tools and practices',
-      technologies: ['Git', 'GitHub', 'Jira', 'Trello', 'Basecamp', 'Slack', 'Figma'],
+      technologies: ['Git', 'GitHub'],
     },
   ];
 
@@ -79,7 +79,7 @@ const Skills: React.FC = () => {
             <h4 className="text-2xl font-bold text-white mb-6">Professional Skills</h4>
             {[
               { skill: 'Laravel', percentage: 80 },
-              { skill: 'React & TypeScript', percentage: 50 },
+              { skill: 'React', percentage: 60 },
               // { skill: 'UI/UX Design', percentage: 80 },
             ].map((item, index) => (
               <div key={index} className="space-y-2">

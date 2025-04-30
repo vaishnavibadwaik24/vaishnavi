@@ -28,12 +28,12 @@ const Contact: React.FC = () => {
   }, []);
 
   const contactInfo: ContactInfo[] = [
-    {
-      icon: '📱',
-      title: 'Phone',
-      content: '+91',
-      link: 'tel:+91'
-    },
+    // {
+    //   icon: '📱',
+    //   title: 'Phone',
+    //   content: '+91',
+    //   link: 'tel:+91'
+    // },
     {
       icon: '📧',
       title: 'Email',
@@ -117,7 +117,7 @@ const Contact: React.FC = () => {
           <h3 className="text-4xl font-bold text-white mb-6">Contact With Me</h3>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Contact Info Cards */}
           {contactInfo.map((info, index) => (
             <motion.div
@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-card-gradient p-6 rounded-lg shadow-card hover:shadow-lg transition-all duration-300"
+              className="bg-card-gradient p-6 rounded-lg shadow-card hover:shadow-lg transition-all duration-300 text-center"
             >
               <div className="text-4xl mb-4">{info.icon}</div>
               <h4 className="text-white text-xl font-bold mb-2">{info.title}</h4>

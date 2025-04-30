@@ -27,52 +27,52 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: "NextGen UX",
-      category: "Design",
-      image: "/projects/nextgen.png",
-      link: "next-gen-ux.netlify.app",
-      description: "Learn UI/UX Design skills with NextGen UX. The latest online learning system and material that help you to be creative."
+      title: "techNova Codes",
+      category: "Development",
+      image: "/projects/technova.png",
+      link: "https://www.technovacodes.com/",
+      description: "techNova Codes collaborate with clients to build impactful websites and applications that align with their goals and bring their vision to life."
     },
     {
       id: 3,
-      title: "TechNova Codes",
-      category: "Design",
-      image: "/projects/technova.png",
-      link: "https://www.technovacodes.com/",
-      description: "At TechNova Codes, transform your ideas into powerful digital solutions. From design to development, deliver innovation, quality, and excellence — let's create something extraordinary together."
+      title: "Janiv Jagruti Foundation",
+      category: "Development",
+      image: "/projects/ngo.png",
+      link: "https://www.janivjagrutifoundation.org/",
+      description: "Designed and developed the website for Janiv Jagruti Foundation, enabling the NGO to effectively share its vision, projects, and community impact with a wider audience."
     },
     {
       id: 4,
-      title: "Janiv Jagruti Foundation",
+      title: "NextGen UX",
       category: "Design",
-      image: "/projects/ngo.png",
-      link: "https://technovacodes-janiv-jagruti.vercel.app/",
-      description: "Janiv Jagruti Foundation is a dedicated to developing youth potential and creating positive social change."
+      image: "/projects/nextgen.png",
+      link: "https://next-gen-ux.netlify.app/",
+      description: "NextGen UX is a responsive website, an academy offering UI/UX design training. Designed intuitive, user-centered pages."
     },
     {
       id: 5,
       title: "FastFruits",
-      category: "Development",
+      category: "Design",
       image: "/projects/fastfruits.png",
-      link: "https://play.google.com/store/apps/details?id=com.omegadisaster.restoration",
-      description: "FastFruits brings you the freshest fruits, delivered fast and full of flavor. Enjoy farm-fresh goodness, anytime, anywhere!"
+      link: "#",
+      description: "FastFruits is a website that serve as a digital platform for shopping. Developed using Laravel, Javascript and Bootstrap."
     },
-    // {
-    //   id: 5,
-    //   title: "Influencer App",
-    //   category: "Mobile App",
-    //   image: "/portfolio/project5.jpg",
-    //   link: "#",
-    //   description: "Mobile application for selling clothing and footwear, earning commissions, connecting influencers and customers."
-    // },
-    // {
-    //   id: 6,
-    //   title: "Online Tiffin Service System (OTSS)",
-    //   category: "Development",
-    //   image: "/portfolio/project6.jpg",
-    //   link: "#",
-    //   description: "The Online Tiffin Service System is a web-based application designed to help administrators efficiently and securely manage all activities online. From a user's perspective, they can conveniently order food online on a daily, weekly, or monthly basis. Payment options include cash on delivery or online payment at the time of delivery. Additionally, after placing an order, users receive a QR code linked to the restaurant, allowing them to make payments and share the receipt seamlessly."
-    // },
+    {
+      id: 6,
+      title: "ManaliTour",
+      category: "Design",
+      image: "/projects/manali-tour.png",
+      link: "https://manali-tour.netlify.app/",
+      description: "ManaliTour is a sleek landing page, developed using Tailwind CSS and HTML for a modern look."
+    },
+    {
+      id: 7,
+      title: "WhiteFalcon Publishing (Clone)",
+      category: "Design",
+      image: "/projects/white-falcon.png",
+      link: "https://whitefalcon.netlify.app/",
+      description: "WhiteFalcon Publishing is a clone website. Developed using Tailwind CSS and HTML for a modern look."
+    },
   ];
 
   const filteredProjects = projects.filter(project => 
