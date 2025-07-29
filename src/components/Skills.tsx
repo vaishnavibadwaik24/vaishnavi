@@ -103,8 +103,8 @@ const Skills: React.FC = () => {
           <div className="space-y-8">
             <h4 className="text-2xl font-bold text-white mb-6">Tools I Use</h4>
             {[
-              { skill: 'VS Code & DevTools', percentage: 80 },
-              { skill: 'Git & GitHub', percentage: 75 },
+              { skill: 'VS Code & DevTools', percentage: 85 },
+              { skill: 'Git & GitHub', percentage: 80 },
               { skill: 'Windows', percentage: 85 },
               // { skill: 'Figma & Design Tools', percentage: 75 },
             ].map((item, index) => (

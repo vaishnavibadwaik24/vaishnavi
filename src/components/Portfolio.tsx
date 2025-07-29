@@ -27,14 +27,6 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: "techNova Codes",
-      category: "Development",
-      image: "/projects/technova.png",
-      link: "https://www.technovacodes.com/",
-      description: "techNova Codes collaborate with clients to build impactful websites and applications that align with their goals and bring their vision to life."
-    },
-    {
-      id: 3,
       title: "Janiv Jagruti Foundation",
       category: "Development",
       image: "/projects/ngo.png",
@@ -42,7 +34,7 @@ const Portfolio: React.FC = () => {
       description: "Designed and developed the website for Janiv Jagruti Foundation, enabling the NGO to effectively share its vision, projects, and community impact with a wider audience."
     },
     {
-      id: 4,
+      id: 3,
       title: "NextGen UX",
       category: "Design",
       image: "/projects/nextgen.png",
@@ -50,7 +42,7 @@ const Portfolio: React.FC = () => {
       description: "NextGen UX is a responsive website, an academy offering UI/UX design training. Designed intuitive, user-centered pages."
     },
     {
-      id: 5,
+      id: 4,
       title: "FastFruits",
       category: "Design",
       image: "/projects/fastfruits.png",
@@ -58,7 +50,7 @@ const Portfolio: React.FC = () => {
       description: "FastFruits is a website that serve as a digital platform for shopping. Developed using Laravel, Javascript and Bootstrap."
     },
     {
-      id: 6,
+      id: 5,
       title: "ManaliTour",
       category: "Design",
       image: "/projects/manali-tour.png",
@@ -66,7 +58,7 @@ const Portfolio: React.FC = () => {
       description: "ManaliTour is a sleek landing page, developed using Tailwind CSS and HTML for a modern look."
     },
     {
-      id: 7,
+      id: 6,
       title: "WhiteFalcon Publishing (Clone)",
       category: "Design",
       image: "/projects/white-falcon.png",
